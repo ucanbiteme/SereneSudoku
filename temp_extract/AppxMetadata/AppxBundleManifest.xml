@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="com.serenesudoku.serenesudoku" Publisher="CN=Serene Sudoku" Version="2026.704.2349.0"/>
+	<Packages>
+		<Package Type="application" Version="1.8.52.0" Architecture="neutral" FileName="SereneSudoku.msix" Offset="47" Size="107016021">
+			<Resources>
+				<Resource Language="en-US"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

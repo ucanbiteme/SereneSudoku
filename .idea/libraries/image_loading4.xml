@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="image-loading4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/msix_unpack_test/_internal/kivy_install/data/images/image-loading.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

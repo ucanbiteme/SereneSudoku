@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="image-loading3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/SereneSudoku/_internal/kivy_install/data/images/image-loading.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

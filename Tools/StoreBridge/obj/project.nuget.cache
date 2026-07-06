@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "dgSpecHash": "mWVtRxVrVawdlMfjoeKv9UHt01K8LenhnE1e4TWRFXnAJjK/pY58LladSQ+voWwYsy8oxuGI4gfOVa1iCyL0pQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\timpe\\Desktop\\Microsoft Store - Unpaid IAP Version\\Tools\\StoreBridge\\StoreBridge.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\timpe\\.nuget\\packages\\microsoft.netcore.platforms\\3.0.0\\microsoft.netcore.platforms.3.0.0.nupkg.sha512",
+    "C:\\Users\\timpe\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\timpe\\.nuget\\packages\\microsoft.windows.cswinrt\\1.4.1\\microsoft.windows.cswinrt.1.4.1.nupkg.sha512",
+    "C:\\Users\\timpe\\.nuget\\packages\\microsoft.windows.sdk.contracts\\10.0.22621.755\\microsoft.windows.sdk.contracts.10.0.22621.755.nupkg.sha512",
+    "C:\\Users\\timpe\\.nuget\\packages\\runtime.any.system.runtime\\4.3.0\\runtime.any.system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\timpe\\.nuget\\packages\\system.private.uri\\4.3.0\\system.private.uri.4.3.0.nupkg.sha512",
+    "C:\\Users\\timpe\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\timpe\\.nuget\\packages\\system.runtime.interopservices.windowsruntime\\4.3.0\\system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
+    "C:\\Users\\timpe\\.nuget\\packages\\system.runtime.windowsruntime\\4.6.0\\system.runtime.windowsruntime.4.6.0.nupkg.sha512",
+    "C:\\Users\\timpe\\.nuget\\packages\\system.runtime.windowsruntime.ui.xaml\\4.6.0\\system.runtime.windowsruntime.ui.xaml.4.6.0.nupkg.sha512",
+    "C:\\Users\\timpe\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.36\\microsoft.netcore.app.runtime.win-x64.6.0.36.nupkg.sha512",
+    "C:\\Users\\timpe\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.36\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.36.nupkg.sha512",
+    "C:\\Users\\timpe\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.36\\microsoft.aspnetcore.app.runtime.win-x64.6.0.36.nupkg.sha512",
+    "C:\\Users\\timpe\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22621.52\\microsoft.windows.sdk.net.ref.10.0.22621.52.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "StoreBridge depends on Microsoft.Windows.CsWinRT (>= 1.3.6) but Microsoft.Windows.CsWinRT 1.3.6 was not found. An approximate best match of Microsoft.Windows.CsWinRT 1.4.1 was resolved.",
+      "libraryId": "Microsoft.Windows.CsWinRT",
+      "targetGraphs": [
+        "net6.0-windows10.0.22621",
+        "net6.0-windows10.0.22621/win-x64"
+      ]
+    }
+  ]
+}

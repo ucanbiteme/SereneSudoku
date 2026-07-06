@@ -1,0 +1,8 @@
+product_id,type,quantity,content_type,us_price,title,short_description,support_contact,
+premium_unlock,Durable,,Electronic software download,$4.99 ,Premium Unlock,Unlock Premium features (no ads, extra themes),support@thezenshoppe.example
+hint_pack_10,Consumable,10,Electronic software download,$0.99 ,10 Hints,Adds 10 hint credits to your account,support@thezenshoppe.example,
+hint_pack_50,Consumable,50,Electronic software download,$1.99 ,50 Hints,Adds 50 hint credits to your account,support@thezenshoppe.example,
+hint_pack_100,Consumable,100,Electronic software download,$2.99 ,100 Hints,Adds 100 hint credits to your account,support@thezenshoppe.example,
+auto_solve_5,Consumable,5,Electronic software download,$0.99 ,5 Auto-Solves,Grants 5 auto-solve credits, support@thezenshoppe.example,
+auto_solve_24h,Consumable,1,Electronic software download,$1.49 ,24h Unlimited Auto-Solves,24 hours of unlimited auto-solves (app enforces expiry),support@thezenshoppe.example,
+auto_solve_forever,Durable,,Electronic software download,$3.99 ,Forever Unlimited Auto-Solves,Permanent unlimited auto-solves,support@thezenshoppe.example,

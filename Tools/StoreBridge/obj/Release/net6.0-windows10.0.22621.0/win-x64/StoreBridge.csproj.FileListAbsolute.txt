@@ -1,0 +1,5 @@
+C:\Users\timpe\Desktop\Microsoft Store - Unpaid IAP Version\Tools\StoreBridge\obj\Release\net6.0-windows10.0.22621.0\win-x64\StoreBridge.csproj.AssemblyReference.cache
+C:\Users\timpe\Desktop\Microsoft Store - Unpaid IAP Version\Tools\StoreBridge\obj\Release\net6.0-windows10.0.22621.0\win-x64\StoreBridge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\timpe\Desktop\Microsoft Store - Unpaid IAP Version\Tools\StoreBridge\obj\Release\net6.0-windows10.0.22621.0\win-x64\StoreBridge.AssemblyInfoInputs.cache
+C:\Users\timpe\Desktop\Microsoft Store - Unpaid IAP Version\Tools\StoreBridge\obj\Release\net6.0-windows10.0.22621.0\win-x64\StoreBridge.AssemblyInfo.cs
+C:\Users\timpe\Desktop\Microsoft Store - Unpaid IAP Version\Tools\StoreBridge\obj\Release\net6.0-windows10.0.22621.0\win-x64\StoreBridge.csproj.CoreCompileInputs.cache

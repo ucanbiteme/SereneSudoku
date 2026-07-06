@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "XsotkJYHAGRN/nTGkkfzPIjzb4IBQZkK8lwVhPHfSooNyJFWupzQmsVQwtI/BYoyrxwnfxgZtjla/C5G86Dk3A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\timpe\\Desktop\\Microsoft Store - Unpaid IAP Version\\Tools\\StoreBridgeStub\\StoreBridgeStub.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\timpe\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.36\\microsoft.netcore.app.runtime.win-x64.6.0.36.nupkg.sha512",
+    "C:\\Users\\timpe\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.36\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.36.nupkg.sha512",
+    "C:\\Users\\timpe\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.36\\microsoft.aspnetcore.app.runtime.win-x64.6.0.36.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,32 @@
+name: Build StoreBridge (Windows)
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'Tools/StoreBridge/**'
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '6.0.x'
+
+      - name: Restore
+        run: dotnet restore Tools\StoreBridge\StoreBridge.csproj
+
+      - name: Publish self-contained single-file exe
+        run: |
+          dotnet publish Tools\StoreBridge\StoreBridge.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o out\StoreBridge
+
+      - name: Upload StoreBridge artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: StoreBridge-exe
+          path: out\StoreBridge\StoreBridge.exe
