@@ -1,31 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0-windows10.0.22621.0</TargetFramework>
-    <UseWindowsForms>false</UseWindowsForms>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
-    <TargetPlatformVersion>10.0.22621.0</TargetPlatformVersion>
-    <TargetPlatformMinVersion>10.0.19041.0</TargetPlatformMinVersion>
-    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
-    <EnableMsixPackaging>true</EnableMsixPackaging>
-    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <PublishTrimmed>false</PublishTrimmed>
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <UseAppHost>true</UseAppHost>
   </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Microsoft.Windows.SDK.Contracts" Version="10.0.22621.755" />
-    <PackageReference Include="Microsoft.Windows.CsWinRT" Version="1.3.6" />
+    <PackageReference Include="Microsoft.Windows.CsWinRT" Version="1.4.1" />
   </ItemGroup>
 
   <PropertyGroup>
-    <EnableCsWinRT>true</EnableCsWinRT>
-    <UseWindowsRuntime>true</UseWindowsRuntime>
+    <CsWinRTEnabled>true</CsWinRTEnabled>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Reference Include="Windows">
-      <HintPath>C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.22621.0\Windows.winmd</HintPath>
-      <IsWinMD>true</IsWinMD>
-    </Reference>
-  </ItemGroup>
 </Project>

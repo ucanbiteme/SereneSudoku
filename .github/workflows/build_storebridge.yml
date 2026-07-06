@@ -19,11 +19,13 @@ jobs:
           dotnet-version: '6.0.x'
 
       - name: Restore
-        run: dotnet restore Tools\StoreBridge\StoreBridge.csproj
+        run: dotnet restore Tools/StoreBridge/StoreBridge.csproj
+
+      - name: Build
+        run: dotnet build Tools/StoreBridge/StoreBridge.csproj -c Release -v detailed
 
       - name: Publish self-contained single-file exe
-        run: |
-          dotnet publish Tools\StoreBridge\StoreBridge.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o out\StoreBridge
+        run: dotnet publish Tools/StoreBridge/StoreBridge.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o out/StoreBridge
 
       - name: Upload StoreBridge artifact
         uses: actions/upload-artifact@v4
